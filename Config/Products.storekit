@@ -1,0 +1,149 @@
+{
+  "appPolicies": {
+    "eula": "",
+    "policies": [
+      {
+        "locale": "en_US",
+        "policyText": "",
+        "policyURL": ""
+      }
+    ]
+  },
+  "identifier": "8D2F6A41",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": [
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Load Products"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Purchase"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Verification"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "App Store Sync"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Subscription Status"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "App Transaction"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Manage Subscriptions Sheet"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Refund Request Sheet"
+      },
+      {
+        "current": null,
+        "enabled": false,
+        "name": "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups": [
+    {
+      "id": "5A1C9E2F",
+      "localizations": [
+        {
+          "description": "Unlimited rooms, true-scale PDF and DXF exports, AR and renovation calculators.",
+          "displayName": "PlanScan Pro",
+          "locale": "en_US"
+        },
+        {
+          "description": "Необмежено кімнат, PDF у справжньому масштабі, DXF, AR і калькулятори для ремонту.",
+          "displayName": "PlanScan Pro",
+          "locale": "uk"
+        }
+      ],
+      "name": "PlanScan Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "39.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "6A3B91C4",
+          "introductoryOffer": {
+            "internalID": "7C2D4E18",
+            "paymentMode": "free",
+            "subscriptionPeriod": "P3D"
+          },
+          "localizations": [
+            {
+              "description": "All Pro features, billed yearly.",
+              "displayName": "PlanScan Pro — Yearly",
+              "locale": "en_US"
+            },
+            {
+              "description": "Усі функції Pro з оплатою щороку.",
+              "displayName": "PlanScan Pro — щороку",
+              "locale": "uk"
+            }
+          ],
+          "productID": "planscan.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "PlanScan Pro Yearly",
+          "subscriptionGroupID": "5A1C9E2F",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "9.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "3E8F2B57",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "All Pro features, billed monthly.",
+              "displayName": "PlanScan Pro — Monthly",
+              "locale": "en_US"
+            },
+            {
+              "description": "Усі функції Pro з оплатою щомісяця.",
+              "displayName": "PlanScan Pro — щомісяця",
+              "locale": "uk"
+            }
+          ],
+          "productID": "planscan.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "PlanScan Pro Monthly",
+          "subscriptionGroupID": "5A1C9E2F",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

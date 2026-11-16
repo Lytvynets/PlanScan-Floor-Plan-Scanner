@@ -1,0 +1,697 @@
+{
+  "name": "Sample apartment",
+  "address": "",
+  "notes": "",
+  "rooms": [
+    {
+      "id": "D6DBD3D3-F7B0-5B3A-A8A0-C16BB5F9EE9B",
+      "name": "Living room",
+      "type": "living",
+      "walls": [
+        {
+          "id": "01ED9CBA-A3D2-584D-A88A-4A88D20784D2",
+          "start": {
+            "x": 0,
+            "y": 0
+          },
+          "end": {
+            "x": 5.2,
+            "y": 0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "00C209DB-97D4-5016-8A43-99BEC782FAA2",
+          "start": {
+            "x": 5.2,
+            "y": 0
+          },
+          "end": {
+            "x": 5.2,
+            "y": 2.8
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "92EE40FF-7ADD-5EBE-B70A-9E2D02B8436D",
+          "start": {
+            "x": 5.2,
+            "y": 2.8
+          },
+          "end": {
+            "x": 5.2,
+            "y": 4.0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "25626543-DD03-5350-AEBD-E3572B8F1C84",
+          "start": {
+            "x": 5.2,
+            "y": 4.0
+          },
+          "end": {
+            "x": 3.8,
+            "y": 4.0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "E1C6AC09-9954-5BC4-A198-7440A308DC73",
+          "start": {
+            "x": 3.8,
+            "y": 4.0
+          },
+          "end": {
+            "x": 0,
+            "y": 4.0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "112110F0-DB93-54BA-8868-9C60F3E6D3F6",
+          "start": {
+            "x": 0,
+            "y": 4.0
+          },
+          "end": {
+            "x": 0,
+            "y": 0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        }
+      ],
+      "openings": [
+        {
+          "id": "06B63667-6171-5656-9E48-E110FBACF66A",
+          "kind": "window",
+          "wallID": "01ED9CBA-A3D2-584D-A88A-4A88D20784D2",
+          "center": {
+            "x": 3.6,
+            "y": 0
+          },
+          "width": 1.6,
+          "height": 1.4,
+          "sillHeight": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "C0FC8B9F-B478-52AC-85F4-A35B35140A6D",
+          "kind": "window",
+          "wallID": "112110F0-DB93-54BA-8868-9C60F3E6D3F6",
+          "center": {
+            "x": 0,
+            "y": 2.0
+          },
+          "width": 1.2,
+          "height": 1.4,
+          "sillHeight": 0.9,
+          "angle": -1.570796
+        },
+        {
+          "id": "5F87A814-FFA7-550F-B2CE-528BC192B369",
+          "kind": "door",
+          "wallID": "00C209DB-97D4-5016-8A43-99BEC782FAA2",
+          "center": {
+            "x": 5.2,
+            "y": 2.2
+          },
+          "width": 0.8,
+          "height": 2.05,
+          "sillHeight": 0.0,
+          "angle": 1.570796
+        },
+        {
+          "id": "089A6E88-E2E2-5B6B-8775-D7833BE9D392",
+          "kind": "door",
+          "wallID": "E1C6AC09-9954-5BC4-A198-7440A308DC73",
+          "center": {
+            "x": 3.2,
+            "y": 4.0
+          },
+          "width": 0.8,
+          "height": 2.05,
+          "sillHeight": 0.0,
+          "angle": 3.141593
+        },
+        {
+          "id": "CE2964D7-B06E-5B03-B213-1DA6F3763F36",
+          "kind": "door",
+          "wallID": "25626543-DD03-5350-AEBD-E3572B8F1C84",
+          "center": {
+            "x": 4.5,
+            "y": 4.0
+          },
+          "width": 0.9,
+          "height": 2.05,
+          "sillHeight": 0.0,
+          "angle": 3.141593
+        }
+      ],
+      "objects": [
+        {
+          "id": "5091A479-D3E7-545A-AD70-3A130FD1C1C1",
+          "category": "sofa",
+          "center": {
+            "x": 1.4,
+            "y": 3.42
+          },
+          "width": 2.2,
+          "depth": 0.9,
+          "height": 0.85,
+          "angle": 0.0
+        },
+        {
+          "id": "0E24C78A-7E86-5E65-88B7-77E2DA5F6CB2",
+          "category": "table",
+          "center": {
+            "x": 1.4,
+            "y": 2.35
+          },
+          "width": 1.1,
+          "depth": 0.6,
+          "height": 0.45,
+          "angle": 0.0
+        },
+        {
+          "id": "34BC5980-6696-50D1-9E6C-D974F86FE88A",
+          "category": "television",
+          "center": {
+            "x": 1.4,
+            "y": 0.28
+          },
+          "width": 1.4,
+          "depth": 0.35,
+          "height": 1.1,
+          "angle": 0.0
+        },
+        {
+          "id": "4C19F7B9-554E-5CFF-91AC-2B6F705444FC",
+          "category": "chair",
+          "center": {
+            "x": 2.95,
+            "y": 2.55
+          },
+          "width": 0.8,
+          "depth": 0.8,
+          "height": 0.9,
+          "angle": -1.570796
+        },
+        {
+          "id": "3AD80E03-6ECF-5157-BC31-3154AFAA565E",
+          "category": "table",
+          "center": {
+            "x": 3.8,
+            "y": 1.1
+          },
+          "width": 1.2,
+          "depth": 0.8,
+          "height": 0.75,
+          "angle": 0.0
+        },
+        {
+          "id": "56DDED3C-BC36-5635-A81C-4E785AC3C2FD",
+          "category": "chair",
+          "center": {
+            "x": 3.5,
+            "y": 0.45
+          },
+          "width": 0.45,
+          "depth": 0.45,
+          "height": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "78B201B1-2AD1-5C74-883F-604A4FE369F5",
+          "category": "chair",
+          "center": {
+            "x": 4.1,
+            "y": 0.45
+          },
+          "width": 0.45,
+          "depth": 0.45,
+          "height": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "46D76B9F-5E4B-53AD-9E19-4F9B23BA4F20",
+          "category": "chair",
+          "center": {
+            "x": 3.5,
+            "y": 1.75
+          },
+          "width": 0.45,
+          "depth": 0.45,
+          "height": 0.9,
+          "angle": 3.141593
+        },
+        {
+          "id": "38F6DE5D-94A3-5B28-A2F9-BE78C6C35D74",
+          "category": "chair",
+          "center": {
+            "x": 4.1,
+            "y": 1.75
+          },
+          "width": 0.45,
+          "depth": 0.45,
+          "height": 0.9,
+          "angle": 3.141593
+        },
+        {
+          "id": "42CECD95-A0C6-5109-B117-4684B58A50EC",
+          "category": "storage",
+          "center": {
+            "x": 0.27,
+            "y": 0.8
+          },
+          "width": 1.0,
+          "depth": 0.4,
+          "height": 1.9,
+          "angle": 1.570796
+        }
+      ],
+      "floorPolygon": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 5.2,
+          "y": 0
+        },
+        {
+          "x": 5.2,
+          "y": 2.8
+        },
+        {
+          "x": 5.2,
+          "y": 4.0
+        },
+        {
+          "x": 3.8,
+          "y": 4.0
+        },
+        {
+          "x": 0,
+          "y": 4.0
+        }
+      ],
+      "ceilingHeight": 2.6,
+      "source": "sample"
+    },
+    {
+      "id": "051F63C8-8E89-55CF-BE83-44D19CC004BC",
+      "name": "Kitchen",
+      "type": "kitchen",
+      "walls": [
+        {
+          "id": "35A48AC0-3463-5EF2-AAD1-001D8BB2E212",
+          "start": {
+            "x": 5.2,
+            "y": 0
+          },
+          "end": {
+            "x": 8.4,
+            "y": 0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "D3C131C0-4AA8-50E4-894D-914767102049",
+          "start": {
+            "x": 8.4,
+            "y": 0
+          },
+          "end": {
+            "x": 8.4,
+            "y": 2.8
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "2A214E5C-9E65-5A4F-A6C7-B1F4579D0DBD",
+          "start": {
+            "x": 8.4,
+            "y": 2.8
+          },
+          "end": {
+            "x": 5.2,
+            "y": 2.8
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "E6666C7B-2534-595F-8885-8E57E18471B3",
+          "start": {
+            "x": 5.2,
+            "y": 2.8
+          },
+          "end": {
+            "x": 5.2,
+            "y": 0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        }
+      ],
+      "openings": [
+        {
+          "id": "BFEF61B1-3626-56CA-A77E-4A90D90EDD5D",
+          "kind": "window",
+          "wallID": "35A48AC0-3463-5EF2-AAD1-001D8BB2E212",
+          "center": {
+            "x": 6.7,
+            "y": 0
+          },
+          "width": 1.2,
+          "height": 1.4,
+          "sillHeight": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "C8CC4212-2AE2-5F6B-AED4-8DC9CCB53C9F",
+          "kind": "door",
+          "wallID": "E6666C7B-2534-595F-8885-8E57E18471B3",
+          "center": {
+            "x": 5.2,
+            "y": 2.2
+          },
+          "width": 0.8,
+          "height": 2.05,
+          "sillHeight": 0.0,
+          "angle": -1.570796
+        }
+      ],
+      "objects": [
+        {
+          "id": "B295EA40-714D-540B-8848-CA5E6EFBBE6F",
+          "category": "stove",
+          "center": {
+            "x": 5.75,
+            "y": 0.37
+          },
+          "width": 0.6,
+          "depth": 0.6,
+          "height": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "F85C75D8-7E53-51F1-8AC4-0895FEE0FD57",
+          "category": "sink",
+          "center": {
+            "x": 6.7,
+            "y": 0.37
+          },
+          "width": 0.8,
+          "depth": 0.6,
+          "height": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "C2CA6398-0D58-5778-9F8E-3AA0DE669C9D",
+          "category": "dishwasher",
+          "center": {
+            "x": 7.42,
+            "y": 0.37
+          },
+          "width": 0.6,
+          "depth": 0.6,
+          "height": 0.85,
+          "angle": 0.0
+        },
+        {
+          "id": "DEA288CC-EE19-5FC4-8F16-96FE3173625C",
+          "category": "storage",
+          "center": {
+            "x": 8.04,
+            "y": 0.37
+          },
+          "width": 0.6,
+          "depth": 0.6,
+          "height": 0.9,
+          "angle": 0.0
+        },
+        {
+          "id": "C16BD3C1-9B2C-5594-9FA8-DCA32ADDD8B9",
+          "category": "refrigerator",
+          "center": {
+            "x": 7.99,
+            "y": 1.25
+          },
+          "width": 0.7,
+          "depth": 0.7,
+          "height": 1.9,
+          "angle": 1.570796
+        },
+        {
+          "id": "D280DF03-B0CC-537C-B809-4730056CDAA0",
+          "category": "table",
+          "center": {
+            "x": 6.6,
+            "y": 1.9
+          },
+          "width": 0.9,
+          "depth": 0.7,
+          "height": 0.75,
+          "angle": 0.0
+        },
+        {
+          "id": "FBFB6D5B-A8CB-5B89-BBA1-C0DE2060E887",
+          "category": "chair",
+          "center": {
+            "x": 6.6,
+            "y": 2.49
+          },
+          "width": 0.45,
+          "depth": 0.45,
+          "height": 0.9,
+          "angle": 3.141593
+        }
+      ],
+      "floorPolygon": [
+        {
+          "x": 5.2,
+          "y": 0
+        },
+        {
+          "x": 8.4,
+          "y": 0
+        },
+        {
+          "x": 8.4,
+          "y": 2.8
+        },
+        {
+          "x": 5.2,
+          "y": 2.8
+        }
+      ],
+      "ceilingHeight": 2.6,
+      "source": "sample"
+    },
+    {
+      "id": "3B55F974-1875-531A-B2C9-DF8ED712CFF1",
+      "name": "Bedroom",
+      "type": "bedroom",
+      "walls": [
+        {
+          "id": "2C3EADBC-E2B6-57C7-9076-564E0E27BC7D",
+          "start": {
+            "x": 0,
+            "y": 4.0
+          },
+          "end": {
+            "x": 3.8,
+            "y": 4.0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "CBCEF17F-0FB0-5691-BD6C-EA12F5AEDC29",
+          "start": {
+            "x": 3.8,
+            "y": 4.0
+          },
+          "end": {
+            "x": 3.8,
+            "y": 7.4
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "4C4D7ACB-F3F1-5768-ADEF-F1A39B5320CA",
+          "start": {
+            "x": 3.8,
+            "y": 7.4
+          },
+          "end": {
+            "x": 0,
+            "y": 7.4
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        },
+        {
+          "id": "34FD834A-9EE0-5FB5-8932-6DEECDD5AF39",
+          "start": {
+            "x": 0,
+            "y": 7.4
+          },
+          "end": {
+            "x": 0,
+            "y": 4.0
+          },
+          "height": 2.6,
+          "thickness": 0.12,
+          "confidence": "high"
+        }
+      ],
+      "openings": [
+        {
+          "id": "B4717BCA-7A32-538B-9598-CE4FD5DC8669",
+          "kind": "window",
+          "wallID": "34FD834A-9EE0-5FB5-8932-6DEECDD5AF39",
+          "center": {
+            "x": 0,
+            "y": 5.9
+          },
+          "width": 1.4,
+          "height": 1.4,
+          "sillHeight": 0.9,
+          "angle": -1.570796
+        },
+        {
+          "id": "84AD9C4B-B65B-56AB-80E6-5749CB99261F",
+          "kind": "door",
+          "wallID": "2C3EADBC-E2B6-57C7-9076-564E0E27BC7D",
+          "center": {
+            "x": 3.2,
+            "y": 4.0
+          },
+          "width": 0.8,
+          "height": 2.05,
+          "sillHeight": 0.0,
+          "angle": 0.0
+        }
+      ],
+      "objects": [
+        {
+          "id": "BBEB79E4-D556-5BB4-8D90-92FC9F54EFE0",
+          "category": "bed",
+          "center": {
+            "x": 2.1,
+            "y": 6.34
+          },
+          "width": 1.6,
+          "depth": 2.0,
+          "height": 0.55,
+          "angle": 0.0
+        },
+        {
+          "id": "FE69BE31-D6D3-5D8C-AFBD-C96A519093ED",
+          "category": "storage",
+          "center": {
+            "x": 1.0,
+            "y": 7.12
+          },
+          "width": 0.45,
+          "depth": 0.4,
+          "height": 0.55,
+          "angle": 0.0
+        },
+        {
+          "id": "BEF17F0B-9661-5020-9E0A-F0AB2A995825",
+          "category": "storage",
+          "center": {
+            "x": 3.2,
+            "y": 7.12
+          },
+          "width": 0.45,
+          "depth": 0.4,
+          "height": 0.55,
+          "angle": 0.0
+        },
+        {
+          "id": "8411001E-A505-537C-8D1B-7DE291050E68",
+          "category": "storage",
+          "center": {
+            "x": 1.0,
+            "y": 4.37
+          },
+          "width": 1.6,
+          "depth": 0.6,
+          "height": 2.2,
+          "angle": 0.0
+        },
+        {
+          "id": "5359E601-5669-5D9A-926B-C85B39484157",
+          "category": "table",
+          "center": {
+            "x": 0.37,
+            "y": 5.9
+          },
+          "width": 1.2,
+          "depth": 0.6,
+          "height": 0.75,
+          "angle": 1.570796
+        },
+        {
+          "id": "C20A7586-69BD-5423-9D8C-2E59D277ACC3",
+          "category": "chair",
+          "center": {
+            "x": 0.95,
+            "y": 5.9
+          },
+          "width": 0.5,
+          "depth": 0.5,
+          "height": 0.9,
+          "angle": -1.570796
+        }
+      ],
+      "floorPolygon": [
+        {
+          "x": 0,
+          "y": 4.0
+        },
+        {
+          "x": 3.8,
+          "y": 4.0
+        },
+        {
+          "x": 3.8,
+          "y": 7.4
+        },
+        {
+          "x": 0,
+          "y": 7.4
+        }
+      ],
+      "ceilingHeight": 2.6,
+      "source": "sample"
+    }
+  ]
+}
